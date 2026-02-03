@@ -40,3 +40,6 @@ DC-1 has to have a static Private IP Address. Client one will connect to DC-1 to
 Now we will log back into DC-1 to install AD Users & Computers. Promote the VM to DC, setup a new forest as "mydomain.com" afterwards restart then log back into DC-1 as user: "mydomain.com\labuser". If you performed the steps properly you should be able to run AD Users & Computers as shown below.
 </p>
 <p>
+<img width="752" height="528" alt="slide4" src="https://github.com/user-attachments/assets/5e5d5a3b-dc25-458e-858d-c88bdec0e6c5" />
+</p>
+<p>
