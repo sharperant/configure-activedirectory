@@ -27,7 +27,7 @@ In this lab we will create two VMs in the same VNET. One will be a Domain Contro
 <img width="1004" height="858" alt="slide1" src="https://github.com/user-attachments/assets/38958b04-816b-4ada-9e9d-cddfff56c248" />
 </p>
 <p>
-DC-1 has to have a static Private IP Address. Client one will connect to DC-1 to ensure connectivity we will try to ping DC-1 from Client-1. At first the ping will not work correctly. We have to enable ICMPv4 on the firewall on DC-1. Now we can ping DC-1 successfully from Client-1
+DC-1 has to have a static Private IP Address. Client one will connect to DC-1 to ensure connectivity we will try to ping DC-1 from Client-1. At first the ping will not work correctly. We have to enable ICMPv4 on the firewall on DC-1. Now we can ping DC-1 successfully from Client-1.
 </p>
 <p>
 <img width="1015" height="767" alt="slide2" src="https://github.com/user-attachments/assets/1cb96d1d-2f5d-4902-a1b3-dd009f99d2cc" />
