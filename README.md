@@ -24,11 +24,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 In this lab we will create two VMs in the same VNET. One will be a Domain Controller, the other will be a Client machine. We will change the DC to a static IP because its offering Active Directory services to the client machine. Client machine will be joined to the domain. We will control the DNS settings on the client machine, the client machine will use the DC as its DNS server.
 </p>
 <p>
-<h2>Installation Steps</h2>
-Welcome to my first in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). We will be using a VM(virtual machine) which is a remote computer. We are using a VM in order to protect our physical machine just in case something malfunctions, and also have a clean slate computer to continually replicate the lab on. Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 4 CPUs.
+<img width="1004" height="858" alt="slide1" src="https://github.com/user-attachments/assets/38958b04-816b-4ada-9e9d-cddfff56c248" />
+</p>
 <p>
+DC-1 has to have a static Private IP Address. Client one will connect to DC-1 to ensure connectivity we will try to ping DC-1 from Client-1. At first the ping will not work correctly. We have to enable ICMPv4 on the firewall on DC-1. Now we can ping DC-1 successfully from Client-1
+</p>
 <p>
-<img width="864" height="422" alt="slide1modify1" src="https://github.com/user-attachments/assets/4f9d1226-2ab2-464d-8b82-060411a8e9bf" />
-
+<img width="1015" height="767" alt="slide2" src="https://github.com/user-attachments/assets/1cb96d1d-2f5d-4902-a1b3-dd009f99d2cc" />
+</p>
+<p>
+<img width="977" height="510" alt="slide3" src="https://github.com/user-attachments/assets/791d09fb-376f-4eba-b1c9-ffca477f7b9c" />
+</p>
+<p>
+Now we will log back into DC-1 to install AD Users & Computers. Promote the VM to DC, setup a new forest as "mydomain.com" afterwards restart then log back into DC-1 as user: "mydomain.com\labuser". If you performed the steps properly you should be able to run AD Users & Computers as shown below.
 </p>
 <p>
