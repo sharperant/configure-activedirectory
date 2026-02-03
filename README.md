@@ -11,18 +11,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Internet Information Services (IIS)
-
+- Active Directory Domain Services
+- PowerShell
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b>
+- Windows Server 2022
+- Windows 10 (21H2)</b>
 
-<h2>List of Prerequisites</h2>
-
-- Azure Virtual Machine
-- osTicket Installation files
-- Heidi SQL
-
+<h2>Deployment and Configuration Steps</h2>
+</p>
+<p>
+In this lab we will create two VMs in the same VNET. One will be a Domain Controller, the other will be a Client machine. We will change the DC to a static IP because its offering Active Directory services to the client machine. Client machine will be joined to the domain. We will control the DNS settings on the client machine, the client machine will use the DC as its DNS server.
+</p>
+<p>
 <h2>Installation Steps</h2>
 Welcome to my first in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). We will be using a VM(virtual machine) which is a remote computer. We are using a VM in order to protect our physical machine just in case something malfunctions, and also have a clean slate computer to continually replicate the lab on. Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 4 CPUs.
 <p>
