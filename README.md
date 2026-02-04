@@ -67,3 +67,16 @@ We have to join Client-1 to the domain in order to do so navigate to your system
 <img width="1195" height="762" alt="slide9" src="https://github.com/user-attachments/assets/87085299-5c23-4789-b373-0bbeb7470c13" />
 </p>
 <p>
+Wonderufl Client-1 is now a part of the domain. Now we will set up remote desktop for non-administrative users on Client-1. We have to log into Client-1 as an admin and open system properties. Click on "Remote Desktop", allow "domain users" access to remote desktop. After completing those steps you should be able to log into Client-1 as a normal user.
+</p>
+<p>
+<img width="857" height="661" alt="slide10" src="https://github.com/user-attachments/assets/3241e4ba-ca9f-4a9c-b586-657997d8fdb9" />
+</p>
+<p>
+Lastly to verify that normal users can RDP into Client-1 we will use a script to generate thousands of users into the domain. We will input the script in powershell, after the users are created we will select one and RDP into Client-1.
+</p>
+<p>
+<img width="1432" height="978" alt="slide11" src="https://github.com/user-attachments/assets/5b2c7fd2-5a15-4ed1-9cef-fdb0efe3306a" />
+</p>
+<p></p>
+<p>
