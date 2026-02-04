@@ -48,7 +48,7 @@ Excellent! We can start creating Organizational Units (OU). Let's first create a
 <p>
 <img width="1358" height="484" alt="slide5" src="https://github.com/user-attachments/assets/5568744e-30bf-4992-84ca-0c23a5c7a740" />
 </p>
-<p>
+<p><br />
 <img width="589" height="308" alt="slide6" src="https://github.com/user-attachments/assets/d3cd2d2e-0757-4791-8ff6-5f45805b1165" />
 </p>
 <p>
