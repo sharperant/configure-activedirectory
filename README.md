@@ -55,3 +55,15 @@ Excellent! We can start creating Organizational Units (OU). Let's first create a
 From now on you can use Jane_admin as the administrator account. Now we will join Client-1 to the domain (mydomain.com) from the azure portal we will change client-1's DNS settings to the DC's Private IP address. After you do that restart Client-1 from within the Azure portal. Our picture below shows verification that client-1 is on the DC-1 DNS.
 </p>
 <p>
+<img width="1083" height="542" alt="slide7" src="https://github.com/user-attachments/assets/667ffd58-3e47-4de1-a6ff-d4480fe327bc" />
+</p>
+<p>
+<img width="1372" height="722" alt="slide8" src="https://github.com/user-attachments/assets/60eb0001-c67a-4800-a331-06453bf14350" />
+</p>
+<p>
+We have to join Client-1 to the domain in order to do so navigate to your system settings and go to about. Off to the right select rename this pc (advanced). From there select to change the domain. Enter "mydomain.com" after that enter your credentials from mydomain.com\labuser. Your computer will restart and then client-1 will be a part of mydomain.com
+</p>
+<p>
+<img width="1195" height="762" alt="slide9" src="https://github.com/user-attachments/assets/87085299-5c23-4789-b373-0bbeb7470c13" />
+</p>
+<p>
