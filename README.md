@@ -43,3 +43,15 @@ Now we will log back into DC-1 to install AD Users & Computers. Promote the VM t
 <img width="752" height="528" alt="slide4" src="https://github.com/user-attachments/assets/5e5d5a3b-dc25-458e-858d-c88bdec0e6c5" />
 </p>
 <p>
+Excellent! We can start creating Organizational Units (OU). Let's first create an OU named _EMPLOYEES. Create another OU named _ADMINS. In order to do that right click on the domain area. Select new->Organizational Unit and fill out the field. Then click inside of your OU and right click, select new and select user and fill out the information for your new user. The user should be named Jane Doe, she is going to be an Admin so her username will be Jane_admin. Lastly add Jane to the domain admins security group.
+</p>
+<p>
+<img width="1358" height="484" alt="slide5" src="https://github.com/user-attachments/assets/5568744e-30bf-4992-84ca-0c23a5c7a740" />
+</p>
+<p>
+<img width="589" height="308" alt="slide6" src="https://github.com/user-attachments/assets/d3cd2d2e-0757-4791-8ff6-5f45805b1165" />
+</p>
+<p>
+From now on you can use Jane_admin as the administrator account. Now we will join Client-1 to the domain (mydomain.com) from the azure portal we will change client-1's DNS settings to the DC's Private IP address. After you do that restart Client-1 from within the Azure portal. Our picture below shows verification that client-1 is on the DC-1 DNS.
+</p>
+<p>
