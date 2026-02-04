@@ -78,5 +78,11 @@ Lastly to verify that normal users can RDP into Client-1 we will use a script to
 <p>
 <img width="1432" height="978" alt="slide11" src="https://github.com/user-attachments/assets/5b2c7fd2-5a15-4ed1-9cef-fdb0efe3306a" />
 </p>
-<p></p>
 <p>
+<img width="672" height="766" alt="slide12" src="https://github.com/user-attachments/assets/6273a363-46a3-4c16-8866-2aa98a9a46c6" />
+</p>
+<p>
+<img width="1134" height="519" alt="slide13" src="https://github.com/user-attachments/assets/e6f249ea-75c1-4c1b-a312-244f63ce0ff7" />
+</p>
+<p>
+As you can see the Powershell script created a user with the username "bab.hubo" We were able to login to Client-1 with his credentials as a normal user.
