@@ -61,13 +61,13 @@ From now on you can use Jane_admin as the administrator account. Now we will joi
 <img width="1372" height="722" alt="slide8" src="https://github.com/user-attachments/assets/60eb0001-c67a-4800-a331-06453bf14350" />
 </p>
 <p>
-We have to join Client-1 to the domain in order to do so navigate to your system settings and go to about. Off to the right select rename this pc (advanced). From there select to change the domain. Enter "mydomain.com" after that enter your credentials from mydomain.com\labuser. Your computer will restart and then client-1 will be a part of mydomain.com
+We have to join Client-1 to the domain in order to do so navigate to your system settings and go to about. Off to the right select rename this PC (advanced). From there select to change the domain. Enter "mydomain.com" after that enter your credentials from mydomain.com\labuser. Your computer will restart and then client-1 will be a part of mydomain.com
 </p>
 <p>
 <img width="1195" height="762" alt="slide9" src="https://github.com/user-attachments/assets/87085299-5c23-4789-b373-0bbeb7470c13" />
 </p>
 <p>
-Wonderufl Client-1 is now a part of the domain. Now we will set up remote desktop for non-administrative users on Client-1. We have to log into Client-1 as an admin and open system properties. Click on "Remote Desktop", allow "domain users" access to remote desktop. After completing those steps you should be able to log into Client-1 as a normal user.
+At this point Client-1 is now a part of the domain. Now we will set up remote desktop for non-administrative users on Client-1. We have to log into Client-1 as an admin and open system properties. Click on "Remote Desktop", allow "domain users" access to remote desktop. After completing those steps you should be able to log into Client-1 as a normal user.
 </p>
 <p>
 <img width="857" height="661" alt="slide10" src="https://github.com/user-attachments/assets/3241e4ba-ca9f-4a9c-b586-657997d8fdb9" />
