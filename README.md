@@ -109,16 +109,16 @@ Create an Admin and Normal User Account in AD. Inside Active Directory Users and
 I then created a new user named Jane Doe with the username jane_admin and added her to the “Domain Admins” security group. Afterward, I logged out and logged back into DC-1 using the new admin credentials mydomain.com\jane_admin
 </p>
 <p>
-<img width="1037" height="618" alt="slide14" src="https://github.com/user-attachments/assets/c828ece4-0efc-4ddf-97a3-362ce9b968ea" />
+<img width="1036" height="722" alt="slide15" src="https://github.com/user-attachments/assets/0e24fc14-5017-416c-974e-d9d43642d4ab" />
 </p>
 <p>
-<img width="1036" height="722" alt="slide15" src="https://github.com/user-attachments/assets/0e24fc14-5017-416c-974e-d9d43642d4ab" />
+<img width="1038" height="666" alt="slide16" src="https://github.com/user-attachments/assets/2e215efd-2418-4ebb-a6cc-4ee80bebb411" /> 
 </p>
 <p>
 Afterward, I logged out and logged back into DC-1 using the new admin credentials mydomain.com\jane_admin
 </p>
 <p>
-<img width="1038" height="666" alt="slide16" src="https://github.com/user-attachments/assets/2e215efd-2418-4ebb-a6cc-4ee80bebb411" />
+
 </p>
 <p>
 Join Client-1 to your domain (myadproject.com). From the Azure portal, I changed Client-1's DNS settings to point to DC-1’s private IP address and restarted the VM.
