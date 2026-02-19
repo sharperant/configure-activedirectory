@@ -34,7 +34,27 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 </p>
 <p>
-In the Azure portal, I created a Virtual Network (VNet) and subnet to house both my virtual machines. Then I deployed a Windows Server 2022 VM named "DC-1" to act as my Domain Controller, and assigned it a static private IP address.
+Setup Resources in Azure. In the Azure portal, I created a Virtual Network (VNet) and subnet to house both my virtual machines. Then I deployed a Windows Server 2022 VM named "DC-1" to act as my Domain Controller, and assigned it a static private IP address.
 </p>
 <p>
-
+<img width="1036" height="560" alt="slide1" src="https://github.com/user-attachments/assets/17fc0484-96a7-4ef7-8077-2c4d5f24b8fd" />
+</p>
+<p>
+<img width="1037" height="560" alt="slide2" src="https://github.com/user-attachments/assets/6a7da878-8bde-48c6-b9b2-9b588c928e47" />
+</p>
+<p>
+I also deployed a Windows 10 VM named "Client-1" in the same VNet, region, and resource group as the domain controller to ensure proper communication between the two machines.
+</p>
+<p>
+<img width="1035" height="561" alt="slide3" src="https://github.com/user-attachments/assets/eada7311-f98a-460b-98d1-53365500ee45" />
+</p>
+<p>
+Set Domain Controller’s NIC Private IP address to be static:
+</p>
+<p>
+<img width="1035" height="565" alt="slide4" src="https://github.com/user-attachments/assets/1a7e7e31-8c0a-4463-be0d-a8967819a739" />
+</p>
+<p>
+<img width="1035" height="563" alt="slide5" src="https://github.com/user-attachments/assets/9f8eb5c0-7644-4f0d-9a1b-1d99d558c33c" />
+</p>
+<p>
