@@ -118,30 +118,30 @@ I then created a new user named Jane Doe with the username jane_admin and added 
 Afterward, I logged out and logged back into DC-1 using the new admin credentials mydomain.com\jane_admin
 </p>
 <p>
-
+<img width="1028" height="527" alt="slide17" src="https://github.com/user-attachments/assets/aa6e93e1-64ad-4a76-8430-86df839a9e3f" />
 </p>
 <p>
 Join Client-1 to your domain (myadproject.com). From the Azure portal, I changed Client-1's DNS settings to point to DC-1’s private IP address and restarted the VM.
 </p>
 <p>
-<img width="1028" height="527" alt="slide17" src="https://github.com/user-attachments/assets/aa6e93e1-64ad-4a76-8430-86df839a9e3f" />
+<img width="1037" height="560" alt="slide18" src="https://github.com/user-attachments/assets/c39c121c-97ef-4865-a5b7-13e7d2c0bf88" />
 </p>
 <p>
 I then logged into Client-1 as the local admin and joined the computer to the domain mydomain.com.
 </p>
 <p>
-<img width="1037" height="560" alt="slide18" src="https://github.com/user-attachments/assets/c39c121c-97ef-4865-a5b7-13e7d2c0bf88" />
+<img width="1037" height="621" alt="slide19" src="https://github.com/user-attachments/assets/fae11a98-5fd7-411d-8838-082a5ffe8c98" />
 </p>
 <p>
 After the machine restarted, I logged into DC-1 and confirmed in ADUC that Client-1 appeared under the “Computers” container, then moved it into the _CLIENTS OU after creating it.
 </p>
 <p>
-<img width="1037" height="621" alt="slide19" src="https://github.com/user-attachments/assets/fae11a98-5fd7-411d-8838-082a5ffe8c98" />
+<img width="1037" height="625" alt="slide20" src="https://github.com/user-attachments/assets/1881d47e-5f12-4aff-beab-86fb0262d27f" />
 </p>
 <p>
 Enable Remote Desktop Access for Domain Users. While logged into Client-1 as jane_admin, I opened the system settings and enabled Remote Desktop. I then granted the “Domain Users” group permission to access the machine remotely, allowing standard users to log in via RDP. This could also be automated using Group Policy for larger environments.
 </p>
 <p>
-<img width="1037" height="625" alt="slide20" src="https://github.com/user-attachments/assets/1881d47e-5f12-4aff-beab-86fb0262d27f" />
+
 </p>
 <p>
