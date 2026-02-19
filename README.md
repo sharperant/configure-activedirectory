@@ -142,6 +142,25 @@ After the machine restarted, I logged into DC-1 and confirmed in ADUC that Clien
 Enable Remote Desktop Access for Domain Users. While logged into Client-1 as jane_admin, I opened the system settings and enabled Remote Desktop. I then granted the “Domain Users” group permission to access the machine remotely, allowing standard users to log in via RDP. This could also be automated using Group Policy for larger environments.
 </p>
 <p>
-
+<img width="936" height="581" alt="slide21" src="https://github.com/user-attachments/assets/3410fdb0-516f-44c6-894f-40ab008d0100" />
 </p>
 <p>
+Bulk Create Users and Configure Lockout Policy. Back on DC-1, I opened PowerShell ISE as an administrator and ran a script to automatically generate 10,000 user accounts inside the _EMPLOYEES OU.I tested account lockout by logging in with incorrect credentials multiple times, causing the account to be locked. I then reset the password and unlocked the account through ADUC. Finally, I modified the domain’s Group Policy settings to lock user accounts after 5 failed login attempts, with a 30-minute lockout duration.
+</p>
+<p>
+<img width="1033" height="602" alt="slide22" src="https://github.com/user-attachments/assets/b5b4d187-1d3d-4450-99a1-9bc15802cb80" />
+</p>
+<p>
+<img width="1037" height="613" alt="slide23" src="https://github.com/user-attachments/assets/31bed54e-ddb8-445e-a613-8e53250bb72c" />
+</p>
+<p>
+After creating the users, I selected one account and attempted to log into Client-1 with it. The login was successful, confirming that the account was active and the domain environment was functioning as intended.
+</p>
+<p>
+<img width="1037" height="626" alt="slide24" src="https://github.com/user-attachments/assets/23f8d68d-2600-4d2b-aba9-a44c8d71e06f" />
+</p>
+<p>
+<img width="1032" height="556" alt="slide25" src="https://github.com/user-attachments/assets/b8253e47-35db-4728-80a4-4463b6b586b3" />
+</p>
+<p>
+<img width="1032" height="643" alt="slide26" src="https://github.com/user-attachments/assets/be03b556-18dd-4c4e-a93c-9aef0f431b85" />
