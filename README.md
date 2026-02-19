@@ -58,3 +58,42 @@ Set Domain Controller’s NIC Private IP address to be static:
 <img width="1035" height="563" alt="slide5" src="https://github.com/user-attachments/assets/9f8eb5c0-7644-4f0d-9a1b-1d99d558c33c" />
 </p>
 <p>
+Ensure Connectivity between the client and Domain Controller. To verify network connectivity, I logged into Client-1 using Remote Desktop and continuously pinged DC-1’s private IP using the ping -t command.
+</p>
+<p>
+<img width="1035" height="437" alt="slide6" src="https://github.com/user-attachments/assets/86aa9e2d-0a41-41de-be60-c4c1c62a2085" />
+</p>
+<p>
+I then logged into DC-1 and enabled ICMPv4 (ping) through the local Windows Firewall.
+</p>
+<p>
+<img width="1040" height="562" alt="slide7" src="https://github.com/user-attachments/assets/ac063d96-31ec-4324-a77a-a92249b59022" />
+</p>
+<p>
+I confirmed back on Client-1 that the ping was successful, indicating proper connectivity.
+</p>
+<p>
+<img width="1042" height="445" alt="slide8" src="https://github.com/user-attachments/assets/d769ca3d-7aa6-4256-bb47-2e9309475c35" />
+</p>
+<p>
+Installing Active Directory. Next, I installed Active Directory Domain Services on DC-1 and promoted it to a Domain Controller by creating a new forest called mydomain.com (or myadproject.com).
+</p>
+<p>
+<img width="1038" height="616" alt="slide9" src="https://github.com/user-attachments/assets/c1f20043-806e-4361-a6b6-28cc2f7ecef4" />
+</p>
+<p>
+Promoting it as a Domain Controller
+</p>
+<p>
+<img width="1037" height="620" alt="slide10" src="https://github.com/user-attachments/assets/6a6231bd-5def-48dc-904a-df4ae0f98f97" />
+</p>
+<p>
+<img width="1038" height="618" alt="slide11" src="https://github.com/user-attachments/assets/72a2c733-0a68-466d-9bfd-f58cbe7ef582" />
+</p>
+<p>
+After the system rebooted, I logged into DC-1 using the domain account mydomain.com\labuser.
+</p>
+<p>
+<img width="1030" height="538" alt="slide12" src="https://github.com/user-attachments/assets/83475086-c312-4c97-9429-58a7f6f83f5e" />
+</p>
+<p>
