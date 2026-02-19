@@ -164,3 +164,9 @@ After creating the users, I selected one account and attempted to log into Clien
 </p>
 <p>
 <img width="1032" height="643" alt="slide26" src="https://github.com/user-attachments/assets/be03b556-18dd-4c4e-a93c-9aef0f431b85" />
+</p>
+<p>
+This tutorial demonstrated how to deploy and configure a fully functional Active Directory environment using Azure Virtual Machines, simulating both cloud-based and traditional on-prem infrastructure. You built a secure, manageable environment complete with domain services, DNS settings, user provisioning, and group policy configuration.
+</p>
+<p>
+✅ Important: Be sure to clean up your Azure environment after finishing this lab. Close all Remote Desktop sessions, delete any unused Resource Groups, and confirm that all resources have been removed to prevent unnecessary charges.
